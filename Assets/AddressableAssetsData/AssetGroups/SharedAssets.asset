@@ -1,0 +1,837 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SharedAssets
+  m_EditorClassIdentifier: 
+  m_GroupName: SharedAssets
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 87be3a88bf112c8488e1571901826a83
+  m_SerializeEntries:
+  - m_GUID: 13981560edb848c41be6f3d4a151daa2
+    m_Address: white car
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3217b570b11b257469c5461f0457e5d4
+    m_Address: CFX_Smoke_4frms
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81f9ff8042f17c445880e8a537bda80a
+    m_Address: Mat 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72cdc8905093c08418619e5df16f750b
+    m_Address: white cat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8dd54a0166b21c4d85bf508a87d0b07
+    m_Address: orange cat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 903deec0895457d43a093ac8ee3e1d97
+    m_Address: Hair_head
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cec07e0da5b05a47938b36a8bf19583
+    m_Address: Push
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a7c6471515119540a9fc40bbfadb18e
+    m_Address: Mat 3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 795a8ab162cba964cb9e5115027b67e1
+    m_Address: black cat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e526af249278a0498ce8273e07fcc49
+    m_Address: Body
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1c965e3a9110b94db515cf6edd67b92
+    m_Address: CFX_Text_Boom
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa86a0f3e62852142bfc3a5d4cd7a828
+    m_Address: Eyebrows
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac66396422b86cb4c92dad11a754d445
+    m_Address: Mat_Hair_3_hair
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02b619845fcb6e741b4be7e71e36c491
+    m_Address: Eye_reflection
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6591b6a58c1933643bb87bf9fbef044c
+    m_Address: mouth_inside
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45f47006298912f4dbec4062603b460f
+    m_Address: Face
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2971af36b69b5924fb0f74d572a91646
+    m_Address: CFX2_WWSmoke2 AB
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 503ba37627ac18c4ebe9bbe73d6ea9ad
+    m_Address: CFX_Anim_Bubble_Add
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29c9dd3707158b2448cc0bdf81c33ce8
+    m_Address: Eyelashes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 584185f725cc8ec4f816013ff6b5e2cc
+    m_Address: Mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 219882489a1df4042823f03b5b903103
+    m_Address: CFX2_SkullStretched Add
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc3eb77856596024ba31ded77df7066d
+    m_Address: parebrik
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1efb59804352a2458135e8203cbcc37
+    m_Address: cfxr stretch rectangle ray hdr ab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 023452b84affa6f43a8feea0e1c55499
+    m_Address: Eye
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7cd73ef8e5a31a244a672ae32c0f6ddb
+    m_Address: CFX_RayRounded
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1039419358f9f44cac7b72f1019e5f5
+    m_Address: Puddle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b87eaf395de8b4949a366706dd711c48
+    m_Address: Mat 4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d1c1ff993581d24bbe83dde5080c344
+    m_Address: Mat 5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae66987a0757b48499a2481b1153bc5d
+    m_Address: Ground
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8022f4bfe3976845b403285a16c5320
+    m_Address: Eyeliner
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d5a52cb18e09b843887aee389016b8d
+    m_Address: CFX_Anim_Triangle2_AlphaBlendedPremult
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b11431c2bf9f2a4199c65856e4837d6
+    m_Address: Mat 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00e0162cc731da54f9d46ca5b37f77cd
+    m_Address: yes cat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3d4119c3e4597d4b90fc27f1419ca4b
+    m_Address: CFX_Anim_Poof_Add
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99a79f6de2825ec4bb471ef12eee8b52
+    m_Address: Mat_Hair_1_hair
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b97b55ed446d8ed48acc18d42edf2de0
+    m_Address: EyeBack
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e09ff6eb81e1bb46ac6c49cc77be78a
+    m_Address: Mat_Hair_2_hair
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9eeeacee4b25c9b488cde157af263b7c
+    m_Address: Coin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b479681f08574fd4188237f92866cbac
+    m_Address: CFX2_Glow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 645a11d137d568d4bb4e5e97f259a333
+    m_Address: CFX_Mesh_Circular2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e81a9863c39f135439c7ea6fc157a560
+    m_Address: Puddle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89e6115599dff4d4aab0f3f30847c76c
+    m_Address: walk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e0043553097dc34e867f52b292bb164
+    m_Address: AnimeGirl
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f80dcdc9fce958544a12897bd113bdcf
+    m_Address: sitidle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8e6717bd7507b44c9fc5a0a6749ec6c
+    m_Address: BaseCharacter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37e70e934dd281b4f9252d591898b6c5
+    m_Address: Walk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8df7d32a0039a147ad53d8ca05c2b8f
+    m_Address: StartMenu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2c2cc746d7a21a48b777ec7880c209f
+    m_Address: InGame
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6a48eb925b85e74b97700e2d11cdea1
+    m_Address: HorizontalObstacle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ef945e9cdea00648bc71d5ae1ebba5a
+    m_Address: walk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b907d30b6f9de2d4bbb8994cfcba0d5c
+    m_Address: sitidle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f198b02e0e99f8d458e8beaa4c101d65
+    m_Address: AC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c017aa7e7c3036243bb26e06962ae6c8
+    m_Address: GameOverPanel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef62dede98473c2449d07d1f65a11946
+    m_Address: Coin (4)
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79516abf0c1e1874a869aa04e5708bdb
+    m_Address: Cases
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1481334038ea30a4bbbeb1912d9230ff
+    m_Address: box_event2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dce07060ba1c3964a84b3ec42f0c2477
+    m_Address: box_event1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9d57a4161b87ac43844cd039a58475f
+    m_Address: box_option2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d687add1285dc944883dbe8d456480e5
+    m_Address: GUI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 629994f1f1da8184b81d040a48184faa
+    m_Address: Skin 5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b0477f1bbd5b4ca18476dce3a81cc41
+    m_Address: pack05-chest3-256
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70783f222b0c71440a082ff647835516
+    m_Address: box_coin2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56a70182a4a9c4ac88610b9ee0faacf8
+    m_Address: Pictoicon_Arrow_Backward
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e832f8a4f31186448b2c250268b36742
+    m_Address: box_event3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0032425ba935c748a9b01c70d50d0f2
+    m_Address: box_select5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 997ac216ed59c4b10a97280c63cf5f9c
+    m_Address: Play_ActionText_Frame_Blue
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cbd0616b24aa0e40981da8a66106f1f
+    m_Address: Skin 4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd9d2a266a4664cd692ce7c032361041
+    m_Address: Icon_Reward_Pass_gold
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41b00c3781537dd4e9d60980fc56f805
+    m_Address: button_square
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33effd6735e414dc7b70ded5e8bb47f8
+    m_Address: StatusBarIcon_Gold
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75bcd0b7eff514a1b963792ac5ce380c
+    m_Address: Common_White_Box
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1589d908944c8184eae81db0d2e313eb
+    m_Address: Skin 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35d7e6588f1f34db1b9a5e62f4efdf77
+    m_Address: Frame_ItemFrame01_Color_Blue
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84063999b9e1741d099c1d8f7bbc0f7a
+    m_Address: Frame_ItemFrame01_Color_Yellow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e487fa957ff97d48ac4e4a1d050f0e4
+    m_Address: Skin 2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ad1327a1c4239d4280277a5f4efc9f0
+    m_Address: Skin 0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31ba611b7ea58a84f978e1c0ea6b88c4
+    m_Address: Skin 3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8dea674bc59dc42b2a83980722f4ef6c
+    m_Address: Pictoicon_Lock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b0d4e7bf344774459d025e4c723ba78
+    m_Address: box_option3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8219bfdc2f8e07c4087a040ba8777203
+    m_Address: Cursor_Hand1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f672e05d727f422499e2f90b1cc9682a
+    m_Address: Camera play
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5069acfd2df0d4901b732807e164cdd7
+    m_Address: Pictoicon_Timer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11682c1eab384411d9d22f54d5e646a7
+    m_Address: Frame_ListFrame02_s
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25db196e3890b4f448a2f53a381e1757
+    m_Address: cat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3a5b2eee17654fb595156ac905a78f6
+    m_Address: Pictoicon_Check
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db9785cfd5c0947f29fa7f00677f7b67
+    m_Address: Icon_Golds
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20220ccfeea6b48c1849c14000059cc7
+    m_Address: pack05-chest1-256
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c6ab37a31e4df3478d97658bff2a671
+    m_Address: MusicAudioMixer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7528aeae299433a41863818a52b65273
+    m_Address: EffectsAudioMixer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46876a2780737ec45a19d62f88e5ce56
+    m_Address: Assets/Application/Content/Prefabs/Particle/CFX_Explosion_B_Smoke+Text.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9629ae2ae85c73b45bd07d4ea6e6f9f7
+    m_Address: Assets/Application/Content/Prefabs/Particle/CFX4 Magic Hit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6398d43fe79ea0140913dc5530c646af
+    m_Address: Assets/Application/Content/Prefabs/Particle/EnemyDie2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48497d57428228b47a65b6ddf5e997f7
+    m_Address: Assets/Application/Content/Prefabs/Player.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7e3584ff24033a489410837a2091c9b
+    m_Address: Assets/Application/Scenes/Build/New Lighting Settings.lighting
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fae461c549e4cc45b55c43521842ada
+    m_Address: Assets/Application/Content/Prefabs/Enviroment/Multipliers/Multipliers.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ee6dfff067c6784a95c1996e89c60b3
+    m_Address: Assets/Application/Content/Prefabs/Enviroment/Multipliers/Pedestal.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15941f70fce71784da1321794120ea6a
+    m_Address: Assets/Application/Scenes/Build/Sky_LowPoly_01_Day_a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 997a43b767814dd0a7642ec9b78cba41
+    m_Address: Assets/ThirdParty/UI/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9f6d0e7bc8541498c9a4799ba184ede
+    m_Address: Assets/ThirdParty/UI/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a2b9e2a607dd2143b58c44bc32410b4
+    m_Address: Assets/ThirdParty/UI/TextMesh Pro/Examples & Extras/Fonts/Electronic
+      Highway Sign.TTF
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68e6db2ebdc24f95958faec2be5558d6
+    m_Address: Assets/ThirdParty/UI/TextMesh Pro/Shaders/TMP_SDF.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe393ace9b354375a9cb14cdbbc28be4
+    m_Address: Assets/ThirdParty/UI/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3265ab4bf004d28a9537516768c1c75
+    m_Address: Assets/ThirdParty/UI/TextMesh Pro/Fonts/LiberationSans.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b701c416ffd5db94eab6dbfe25b8247e
+    m_Address: Assets/ThirdParty/Particles/Materials/Light/CFX4_AuraBubble ADD.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0762aad6c86c7184482fd5c0cdea3b0e
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      spikes impact dissolve hdr ab.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 928806a91d0b01541aa11e36bb755ab7
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      spikes impact mesh.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64891c6019229b449b31b1a66eca0b6a
+    m_Address: Assets/Application/Content/Prefabs/Particle/Confetti_Particles_Sphere.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f233a7a5a2c3777498cc5c62b506633a
+    m_Address: Assets/ThirdParty/Particles/Textures/CFX4_T_AuraBubble.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e72721b1694d9941876dee6ff532672
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      spikes impact dissolve.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac41fdcd17fc3634c80841c01775dd35
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      spikes impact.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d244b42458199344aaea0c6c77cbb90
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      proc glow soft add.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a78b06c58d03f5d4fbb74ba21020241e
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr
+      ring mesh.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a81df4963508f8c4e9c854c919c93b67
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      proc ring hdr ab.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2656ffd617a68d949a7600cc66478917
+    m_Address: Assets/ThirdParty/Particles/Materials/Misc/CFX_Bubble.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b22999712355474795091cef25021b4
+    m_Address: Assets/ThirdParty/Particles/Materials/Light/CFX3_GlowStar ADD.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30c41c686541ab64bb4c79d84567f3ed
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      flare add.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 628acb7f048d3594fa40568f2a69c3e2
+    m_Address: Assets/ThirdParty/Particles/Materials/Stretched/CFX2_Faded Ray.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a59d22b0ce4264441a7c7ae1e9a5a3a9
+    m_Address: Assets/Application/Content/Materials/Multipliers/x3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4c058e0744fa8b4f89db9d3171f4eb9
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      flare.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: deb7ddf0daf98c040b975a0ec5744266
+    m_Address: Assets/Application/Content/Materials/Multipliers/x9.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91d3d754c3f2ed742b805399cbbbe0e9
+    m_Address: Assets/ThirdParty/Particles/Textures/CFX3_T_GlowStar.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03825a665aa62554eb3e92e2ab6c4b12
+    m_Address: Assets/ThirdParty/Particles/Textures/CFX2_T_FadedRay.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 965165d65c3869046a04c8f825bfccd7
+    m_Address: Assets/Application/Content/Materials/Multipliers/x5.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dda44a7d9cec71439b5b8e20fcbccfb
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR
+      Particle Procedural Ring.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7eb97c7597a5c646b754b4c50ee8195
+    m_Address: Assets/Application/Content/Materials/Multipliers/x6.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c531222955ca3aa42b7e96f6e6935e4a
+    m_Address: Assets/Application/Content/Materials/Multipliers/x10.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 714e760b98304b44292e04841e05f258
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR
+      Particle Glow.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4bafa79bb25214b43ae06bc589b34190
+    m_Address: Assets/Application/Content/Materials/emiss.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd5f77db0b1cae745bf2d8b8df194861
+    m_Address: Assets/ThirdParty/Particles/Textures/CFX_T_Bubble.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab14ee6c100c6a1478253cddacf28c13
+    m_Address: Assets/Application/Content/Materials/Multipliers/x8.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de1a9f7c0915bff4d9b6578be92d0e9f
+    m_Address: Assets/Application/Content/Materials/Multipliers/x7.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21cd48ec82caa6a4f8483d50da2f6e2a
+    m_Address: Assets/Application/Content/Materials/Multipliers/x4.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 288b596d7ba918a49b649d52cc3d062a
+    m_Address: Assets/Application/Content/Materials/Multipliers/x2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad4d1e6f670b5b543a346970e68a1ed2
+    m_Address: Assets/Application/Content/Materials/Multipliers/x1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 944bc1016f6ac38439ec1bf04fab9550
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX (legacy)/Materials/Animated/CFX_Anim_Triangle_AddSoft.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25cbaca39ac0e3f47b4db172e11cb9aa
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX (legacy)/Materials/Misc/CFX3_SmokePuff
+      MULT.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9386fd37103dcb479f09e942849a1ce
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX (legacy)/Materials/Fire/CFX3_FireSparkle
+      ADD.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5ba55e8c50aca1479a7397110e12cea
+    m_Address: Assets/Application/Content/Materials/CatFoodBag/petfood.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 133347283e115d147a5fcce7f47a538f
+    m_Address: Assets/Application/Scenes/Build/Sky_LowPoly_01_Day_a.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1b7970c4763f554bb821f9da4201126
+    m_Address: Assets/Application/Content/Models/Stump/Stump.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67c3db2f0d5b4aa4eaa1d7aec0699d15
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX (legacy)/Materials/Fire/CFX3_FireBulk
+      ADD.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e91aada445ef75a4c9eb901b23cc541c
+    m_Address: Assets/Application/Content/Models/catfoodbag/catfoodbag.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d93cfcb550bc91a4caed54f35ca93f83
+    m_Address: Assets/Application/Content/Models/Stump/Stump.obj
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c755f9bc5253ea418e919994537dcc7
+    m_Address: Assets/Application/Content/Prefabs/Particle/EnemyHit.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d09abe9036011f94a9e27ccc73cea0ac
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX (legacy)/Shaders/CFX3
+      Multiply Color.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bccaaca1f83315c4aad8d95e28fd9149
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX (legacy)/Shaders/CFXM_MobileParticleAdd_Alpha8.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52c1a422bfc04b543adc653b160af1e6
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX (legacy)/Textures/CFX3_T_FireSparkle.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d19a987b0d281148bb6a4c60606477e
+    m_Address: Assets/Application/Content/Textures/CatFoodBag/petfood-3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aff991a95cb92204fa62dffc7e7b6ead
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX (legacy)/Textures/CFX3_T_SmokePuff.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6d1dbabd3135d546b6c48db6a6879f3
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX (legacy)/Textures/CFX3_T_FireBulk.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 457b1e2e96148da47ac7049226511eff
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX (legacy)/Textures/CFX_T_Anim4_Triangle1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6736a9c9adab91a48960113bc5758c7b
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      stretch triangle to diamond add.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dcb00a55dda387f438bff3349756e787
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      hit triangle 2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6157b46c6aaef04c858b3b9b40aba7f
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      hit triangle diamond dissolve.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04d0f020002082e4db140d8c0954e83e
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      spikes impact add.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2175ac793e235894da12a78ea274cb1f
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      stretch trait blur add.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acdb793533f4e154c9ba0b0f665f5445
+    m_Address: Assets/ThirdParty/Particles/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr
+      stretch trait blur.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf73b17181bc1df40aa27cb7995f9a37
+    m_Address: Assets/Application/Content/Materials/Nitro.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 105d09408df9e6d44b1fb9509aa1e4a2, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0bc84c2e40fa125478443d72f1e226b4, type: 2}
+    - {fileID: 11400000, guid: d5a03af9bc502a94a91adab578809f97, type: 2}

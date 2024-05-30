@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4645132edefd4c74968a0c941a98fb89, type: 3}
+  m_Name: SoundDatabase
+  m_EditorClassIdentifier: 
+  _items:
+  - Clip: {fileID: 8300000, guid: b17758dcf1111cc4a911ee08a25d24cb, type: 3}
+    Key: 1
+    FolderPath: Application\Content\Audio\Music\
+    Name: BackGroundMusic.mp3
+    Preload: 0
+    _id: 29cb30fe-3076-43fc-a3f5-29d03ce86ee9
+  - Clip: {fileID: 8300000, guid: 11b90a86682071844a89eeae6d651d17, type: 3}
+    Key: Nitro
+    FolderPath: Application\Content\Audio\Effects\
+    Name: NitroBonus.mp3
+    Preload: 0
+    _id: 4853fe31-4dd4-4b44-97cb-c216a9e98319
+  - Clip: {fileID: 8300000, guid: f43302a22ac0096439f06d4f430b8759, type: 3}
+    Key: CatchBox
+    FolderPath: Application\Content\Audio\Effects\
+    Name: CatchBox.mp3
+    Preload: 0
+    _id: 73a4dd0c-924e-4e05-9b96-b4ea433cd09e
+  - Clip: {fileID: 8300000, guid: cc437aa4b000ee04f9a725f3c7631266, type: 3}
+    Key: CatchCoin
+    FolderPath: Application\Content\Audio\Effects\
+    Name: CatchBonus.mp3
+    Preload: 0
+    _id: 8e2322b6-7fc4-499c-ad69-9e5d14e4e5da
+  - Clip: {fileID: 8300000, guid: 110fd66b0916fc94098a648b2de1241a, type: 3}
+    Key: CatchCat
+    FolderPath: Application\Content\Audio\Effects\
+    Name: Myau.mp3
+    Preload: 0
+    _id: 7c5214c6-bc81-4b0c-a624-0d94dd75a761
+  - Clip: {fileID: 8300000, guid: a14ffa054c680c54db6bcfd8136dc3fb, type: 3}
+    Key: WebHit
+    FolderPath: Application\Content\Audio\Effects\
+    Name: BulletHit.mp3
+    Preload: 0
+    _id: 12724207-a2da-4ef6-802b-fe794ede5ce7
+  - Clip: {fileID: 8300000, guid: f28e5862159846e43a867afe564fe2f9, type: 3}
+    Key: BossHit
+    FolderPath: Application\Content\Audio\Effects\
+    Name: HitBoss.mp3
+    Preload: 0
+    _id: d535fa01-892f-4f78-980f-2f6c2ae84d75
+  - Clip: {fileID: 8300000, guid: aefc43a8224d8d64482545626715a61a, type: 3}
+    Key: GameOver
+    FolderPath: Application\Content\Audio\Effects\
+    Name: GameOverMusicEffect.mp3
+    Preload: 0
+    _id: 61ae88f9-bf73-47cc-b1ef-b77c27243871
+  - Clip: {fileID: 8300000, guid: fc05426215953eb4f87f369ff9bf9403, type: 3}
+    Key: CatchMagnit
+    FolderPath: Application\Content\Audio\Effects\
+    Name: CatchMagnit.mp3
+    Preload: 0
+    _id: d3219976-953c-49a5-84a4-2cd5280aee04
+  - Clip: {fileID: 8300000, guid: 8579c78a96cafc147b29aed1b295229d, type: 3}
+    Key: OpenShop
+    FolderPath: Application\Content\Audio\Effects\
+    Name: OpenShop.mp3
+    Preload: 0
+    _id: e3111327-5b53-4609-990b-a2eb615f0c39
+  - Clip: {fileID: 8300000, guid: 9bf7c56f354f91c4083597870392fa28, type: 3}
+    Key: InShop
+    FolderPath: Application\Content\Audio\Music\
+    Name: InShop.mp3
+    Preload: 0
+    _id: 03ead03d-891e-4d77-ad78-3964df32e278
+  - Clip: {fileID: 8300000, guid: 342b2b9ff95050f44b5fa7843d89c89b, type: 3}
+    Key: Buy
+    FolderPath: Application\Content\Audio\Effects\
+    Name: Buy.mp3
+    Preload: 0
+    _id: 64123559-e3a6-402d-8888-d1b8ea1d284b
+  - Clip: {fileID: 8300000, guid: 578cf2915c00df1468c63ccd8edea4f1, type: 3}
+    Key: Not
+    FolderPath: Application\Content\Audio\Effects\
+    Name: Not.mp3
+    Preload: 0
+    _id: 2027290c-dde8-4f44-8a9e-8fe7f80e545f
+  - Clip: {fileID: 8300000, guid: 39416687bc37fe845bfe404ce1bd1e95, type: 3}
+    Key: Click
+    FolderPath: Application\Content\Audio\Effects\
+    Name: Click.mp3
+    Preload: 0
+    _id: 60d97a48-2e28-4889-ae04-4d3c4b679ce3
