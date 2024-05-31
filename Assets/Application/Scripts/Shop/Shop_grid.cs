@@ -11,12 +11,12 @@ using YG;
 
 public class Shop_grid : MonoBehaviour
 {
+    [SerializeField] private Scrollbar _scrollbarVertical;
     [SerializeField] private int _current_levl;
 
     [Header("Grids")]
     [SerializeField] private List<Button> _grids;
     [Header("Locks")]
-    [SerializeField] private List<GameObject> _locks;
     [SerializeField] private List<GameObject> _notBuy;
     [SerializeField] private List<GameObject> _isBuyBox;
     [SerializeField] private List<GameObject> _isApplied;
@@ -39,7 +39,7 @@ public class Shop_grid : MonoBehaviour
 
         foreach (Button _grid in _grids)
         {
-            _grid.onClick.AddListener(() => Grid(_index: _grids.IndexOf(_grid)));
+            _grid.onClick.AddListener(() => Grid(index: _grids.IndexOf(_grid)));
         }
 
     }
@@ -52,6 +52,7 @@ public class Shop_grid : MonoBehaviour
 
     public void LoadShop()
     {
+        _scrollbarVertical.value = 1;
         SoundsManager.Instance.StopSound();
         SoundsManager.Instance.PlaySound("OpenShop");
         SoundsManager.Instance.PlayBackGround("InShop");
@@ -62,74 +63,60 @@ public class Shop_grid : MonoBehaviour
         CheckIsBuy();
 
         _current_levl = (int)SaveData.Instance.Data.FakeLevel;
-
-        for (int _index = 0; _index <= (_locks.Count - 1); _index++)
-        {
-            if (_current_levl >= _unlockLevels[_index])
-            {
-                _locks[_index].SetActive(false);
-            }
-        }
     }
 
     public void CheckIsBuy()
     {
-        int _index = 0;
+        int index = 0;
         foreach (GameObject _isbuy in _notBuy)
         {
-            if (SaveData.Instance.Data.IsBuyShop[_index])
+            if (SaveData.Instance.Data.IsBuyShop[index])
             {
-                _notBuy[_index].SetActive(false);
-                _isBuyBox[_index].SetActive(true);
+                _notBuy[index].SetActive(false);
+                _isBuyBox[index].SetActive(true);
             }
-            _index++;
+            index++;
         }
     }
 
-    public void Grid(int _index)
+    public void Grid(int index)
     {
 
-        Debug.Log($"Нажата {_index}");
-        if (!_locks[_index].gameObject.activeInHierarchy)
+        Debug.Log($"Нажата {index}");
+
+        if (!SaveData.Instance.Data.IsBuyShop[index])
         {
-            if (!SaveData.Instance.Data.IsBuyShop[_index])
+            if (SaveData.Instance.Data.Coins > _prices[index])
             {
-                if (SaveData.Instance.Data.Coins > _prices[_index])
-                {
-                    SoundsManager.Instance.PlaySound("Buy");
+                SoundsManager.Instance.PlaySound("Buy");
 
-                    SaveData.Instance.Data.Coins = SaveData.Instance.Data.Coins - _prices[_index];
-                    SaveData.Instance.Data.IsBuyShop[_index] = true;
-                    SaveData.Instance.SaveYandex();
+                SaveData.Instance.Data.Coins = SaveData.Instance.Data.Coins - _prices[index];
+                SaveData.Instance.Data.IsBuyShop[index] = true;
+                SaveData.Instance.SaveYandex();
 
-                    UIBehaviour.Instance.UpdateCoins(SaveData.Instance.Data.Coins);
+                UIBehaviour.Instance.UpdateCoins(SaveData.Instance.Data.Coins);
 
-                    CheckIsBuy();
-                    //Выдача предмета
-                }
-                else 
-                {
-                    SoundsManager.Instance.PlaySound("Not");
-                }
+                CheckIsBuy();
+                //Выдача предмета
             }
             else
             {
-                SaveData.Instance.Data.AppliedSkinIndex = _index;
-                SaveData.Instance.SaveYandex();
-
-                for (int i = 0; i <= (_isApplied.Count - 1); i++)
-                {
-                    _isApplied[i].SetActive(false);
-                }
-                CheckIsBuy();
-                 PlayerViev _playerViev = FindObjectOfType<PlayerViev>();
-                _playerViev.SetSkin(_index: _index);
-                _isApplied[_index].SetActive(true);
+                SoundsManager.Instance.PlaySound("Not");
             }
         }
         else
         {
-            SoundsManager.Instance.PlaySound("Not");
+            SaveData.Instance.Data.AppliedSkinIndex = index;
+            SaveData.Instance.SaveYandex();
+
+            for (int i = 0; i <= (_isApplied.Count - 1); i++)
+            {
+                _isApplied[i].SetActive(false);
+            }
+            CheckIsBuy();
+            PlayerViev _playerViev = FindObjectOfType<PlayerViev>();
+            _playerViev.SetSkin(index);
+            _isApplied[index].SetActive(true);
         }
     }
 }
