@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.38825688, g: 0.7281151, b: 0.7341303, a: 1}
+  m_IndirectSpecularColor: {r: 0.38638395, g: 0.72764575, b: 0.7324713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -437,21 +437,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerNew
       objectReference: {fileID: 0}
-    - target: {fileID: 2379524079578738050, guid: 48497d57428228b47a65b6ddf5e997f7,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 3101344072971392898, guid: 48497d57428228b47a65b6ddf5e997f7,
         type: 3}
       propertyPath: _warpSpeedEffect
       value: 
       objectReference: {fileID: 1936354700}
-    - target: {fileID: 5734624795025209455, guid: 48497d57428228b47a65b6ddf5e997f7,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5734624795025209455, guid: 48497d57428228b47a65b6ddf5e997f7,
         type: 3}
       propertyPath: m_LocalPosition.x

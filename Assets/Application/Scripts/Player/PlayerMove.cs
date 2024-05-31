@@ -46,13 +46,13 @@ public class PlayerMove : MonoBehaviour
         _zPos = transform.position.z;
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         if (_canMove)
         {
-            HandleInput();
-            Moveforkey();
             Move();
+            Moveforkey();
+            HandleInput();
         }
     }
 
