@@ -31,7 +31,7 @@ public class Shop_grid : MonoBehaviour
 
     private void Start()
     {
-        for (int _index = 0; _index <= (_priceTextes.Count - 1); _index++)
+        for (int _index = 0; _index < (_priceTextes.Count); _index++)
         {
             _priceTextes[_index].text = _prices[_index].ToString();
             _unlockIndex[_index].text = _unlockLevels[_index].ToString();
@@ -109,7 +109,7 @@ public class Shop_grid : MonoBehaviour
             SaveData.Instance.Data.AppliedSkinIndex = index;
             SaveData.Instance.SaveYandex();
 
-            for (int i = 0; i <= (_isApplied.Count - 1); i++)
+            for (int i = 0; i < (_isApplied.Count); i++)
             {
                 _isApplied[i].SetActive(false);
             }
