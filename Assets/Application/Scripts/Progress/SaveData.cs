@@ -92,5 +92,6 @@ public class DataHolder
     public int BaseDamage = 2;
     public float BaseFiringRate = 2;
     public int AppliedSkinIndex = 0;
-    public List<bool> IsBuyShop = new List<bool>() {true, false, false, false, false, false};
+    public List<bool> IsBuyShop = new List<bool>() {true, false, false, false, false, false, false, false, false, false,
+    false, false, false, false, false, false, false};
 }
