@@ -1,5 +1,5 @@
 {
-    "idSave": 4981,
+    "idSave": 5067,
     "isFirstSession": false,
     "language": "ru",
     "promptDone": false,
@@ -13,7 +13,7 @@
     "CostOfFiringRateImprovements": 10,
     "BaseDamage": 2,
     "BaseFiringRate": 2.0,
-    "AppliedSkinIndex": 16,
+    "AppliedSkinIndex": 4,
     "IsBuyShop": [
         true,
         true,
