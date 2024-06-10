@@ -1,9 +1,9 @@
 {
-    "idSave": 5067,
+    "idSave": 5333,
     "isFirstSession": false,
     "language": "ru",
     "promptDone": false,
-    "Coins": 306,
+    "Coins": 755,
     "Score": 0,
     "CurrentLevel": 2,
     "FakeLevel": 2,
@@ -13,7 +13,7 @@
     "CostOfFiringRateImprovements": 10,
     "BaseDamage": 2,
     "BaseFiringRate": 2.0,
-    "AppliedSkinIndex": 4,
+    "AppliedSkinIndex": 16,
     "IsBuyShop": [
         true,
         true,
