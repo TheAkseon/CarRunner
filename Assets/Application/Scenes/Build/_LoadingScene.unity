@@ -574,61 +574,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5ef1796beae452428573ce9a317b5e8, type: 3}
---- !u!1 &681160330
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 681160331}
-  - component: {fileID: 681160332}
-  m_Layer: 0
-  m_Name: Collect this box
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &681160331
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 681160330}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6240053361598705160}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &681160332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 681160330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data: 0
-  entries:
-  - Language: Russian
-    Text: "\u0421\u043E\u0431\u0435\u0440\u0438 \u044D\u0442\u0443 \u043A\u043E\u0440\u043E\u0431\u043A\u0443!"
-    Object: {fileID: 0}
-  - Language: Turkish
-    Text: "Bu kutuyu toplay\u0131n!"
-    Object: {fileID: 0}
-  - Language: English
-    Text: Collect this box!
-    Object: {fileID: 0}
 --- !u!1001 &828804102
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -874,13 +819,13 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: Russian
-    Text: "\u0423\u0432\u0435\u0440\u043D\u0438\u0441\u044C \u043E\u0442 \u043F\u0440\u0435\u043F\u044F\u0442\u0441\u0442\u0432\u0438\u044F!"
+    Text: "\u0423\u0432\u0435\u0440\u043D\u0438\u0441\u044C \u043E\u0442 \u043F\u0440\u0435\u043F\u044F\u0442\u0441\u0442\u0432\u0438\u044F"
     Object: {fileID: 0}
   - Language: Turkish
-    Text: "Engellerden ka\xE7!"
+    Text: "Engellerden ka\xE7"
     Object: {fileID: 0}
   - Language: English
-    Text: Dodge obstacles!
+    Text: Dodge obstacles
     Object: {fileID: 0}
 --- !u!1 &1020777027
 GameObject:
@@ -1280,13 +1225,13 @@ MonoBehaviour:
   data: 0
   entries:
   - Language: Russian
-    Text: "\u0421\u043E\u0431\u0435\u0440\u0438 \u044D\u0442\u0438\u0445 \u043A\u043E\u0442\u043E\u0432!"
+    Text: "\u0421\u043E\u0431\u0435\u0440\u0438 \u044D\u0442\u0438 \u043A\u043E\u0440\u043E\u0431\u043A\u0438"
     Object: {fileID: 0}
   - Language: Turkish
-    Text: "Bu kedileri toplay\u0131n"
+    Text: "Bu kutular\u0131 topla"
     Object: {fileID: 0}
   - Language: English
-    Text: Collect these cats!
+    Text: Collect these boxes
     Object: {fileID: 0}
 --- !u!1 &1608175086
 GameObject:
@@ -1706,10 +1651,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1448040433}
-    - targetCorrespondingSourceObject: {fileID: 6240053362053640675, guid: 23e9441c49c7e194badd7aa65687f4a8,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 681160331}
     - targetCorrespondingSourceObject: {fileID: 6240053362053640675, guid: 23e9441c49c7e194badd7aa65687f4a8,
         type: 3}
       insertIndex: -1
