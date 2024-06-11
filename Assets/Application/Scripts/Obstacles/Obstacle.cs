@@ -6,7 +6,6 @@ public class Obstacle : MonoBehaviour
 {
     [SerializeField] private int _obstacleValue;
     [SerializeField] private GameObject _hitParticle;
-    [SerializeField] private GameObject _hitBulletParticle;
 
     public int ObstacleValue => _obstacleValue;
     public event UnityAction<Obstacle> Offend;
@@ -17,13 +16,6 @@ public class Obstacle : MonoBehaviour
         {
             Instantiate(_hitParticle, other.gameObject.transform.position, gameObject.transform.rotation);
             Offend?.Invoke(this);
-            // Destroy(gameObject);
         }
-        // if (other.gameObject.TryGetComponent(out WebBehaviour webBehaviour))
-        // {
-        //     SoundsManager.Instance.PlaySound("WebHit");
-        //     Instantiate(_hitBulletParticle, other.gameObject.transform.position, transform.rotation);
-        //     Destroy(other.gameObject);
-        // }
     }
 }
