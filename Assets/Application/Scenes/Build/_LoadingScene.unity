@@ -484,6 +484,61 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7e8987474187a84287bb9cbd31b4eab, type: 3}
+--- !u!1 &375783960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 375783961}
+  - component: {fileID: 375783962}
+  m_Layer: 0
+  m_Name: "\u0421ollect coins"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &375783961
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375783960}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6240053361598705160}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &375783962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375783960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: Russian
+    Text: "C\u043E\u0431\u0435\u0440\u0438 \u043C\u043E\u043D\u0435\u0442\u044B"
+    Object: {fileID: 0}
+  - Language: Turkish
+    Text: Para topla
+    Object: {fileID: 0}
+  - Language: English
+    Text: "\u0421ollect coins"
+    Object: {fileID: 0}
 --- !u!114 &381761524 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4425908742160815, guid: b16da198ca3edc34f8d0f3e930b11f31,
@@ -574,6 +629,61 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5ef1796beae452428573ce9a317b5e8, type: 3}
+--- !u!1 &672311806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 672311807}
+  - component: {fileID: 672311808}
+  m_Layer: 0
+  m_Name: Play
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &672311807
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672311806}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6240053361598705160}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &672311808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672311806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: Russian
+    Text: "\u0418\u0433\u0440\u0430\u0439"
+    Object: {fileID: 0}
+  - Language: Turkish
+    Text: Oynamak
+    Object: {fileID: 0}
+  - Language: English
+    Text: Play
+    Object: {fileID: 0}
 --- !u!1001 &828804102
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1569,7 +1679,7 @@ PrefabInstance:
     - target: {fileID: 6240053362053640672, guid: 23e9441c49c7e194badd7aa65687f4a8,
         type: 3}
       propertyPath: currentLanguage
-      value: Russian
+      value: English
       objectReference: {fileID: 0}
     - target: {fileID: 6240053362053640672, guid: 23e9441c49c7e194badd7aa65687f4a8,
         type: 3}
@@ -1667,6 +1777,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1107447946}
+    - targetCorrespondingSourceObject: {fileID: 6240053362053640675, guid: 23e9441c49c7e194badd7aa65687f4a8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 375783961}
+    - targetCorrespondingSourceObject: {fileID: 6240053362053640675, guid: 23e9441c49c7e194badd7aa65687f4a8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 672311807}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23e9441c49c7e194badd7aa65687f4a8, type: 3}
 --- !u!114 &6240053361598705158 stripped
