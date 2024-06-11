@@ -1,26 +1,25 @@
 {
-    "idSave": 8083,
+    "idSave": 13410,
     "isFirstSession": false,
     "language": "ru",
     "promptDone": false,
-    "Coins": 1005,
+    "Coins": 9269,
     "Score": 0,
-    "CurrentLevel": 3,
-    "FakeLevel": 3,
+    "CurrentLevel": 2,
+    "FakeLevel": 15,
     "muteMusic": false,
     "muteEffects": false,
     "CostOfDamageImprovements": 10,
     "CostOfFiringRateImprovements": 10,
     "BaseDamage": 2,
     "BaseFiringRate": 2.0,
-    "AppliedSkinIndex": 5,
+    "AppliedSkinIndex": 16,
     "IsBuyShop": [
         true,
         false,
         false,
         false,
         false,
-        true,
         false,
         false,
         false,
@@ -31,6 +30,7 @@
         false,
         false,
         false,
-        false
+        false,
+        true
     ]
 }

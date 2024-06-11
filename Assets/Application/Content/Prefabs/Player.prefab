@@ -229,7 +229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _warpSpeedEffect: {fileID: 0}
   speed: 15
-  speedX: 12
+  speedX: 20
   move_speed: 0.6
   _maxPosX: 3
   _timeApplyInvulnerble: 0.1

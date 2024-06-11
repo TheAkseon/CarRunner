@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: SoundDatabase
   m_EditorClassIdentifier: 
   _items:
-  - Clip: {fileID: 8300000, guid: b17758dcf1111cc4a911ee08a25d24cb, type: 3}
+  - Clip: {fileID: 8300000, guid: 7468277eab83f8248ad1941f780962c0, type: 3}
     Key: 1
     FolderPath: Application\Content\Audio\Music\
-    Name: BackGroundMusic.mp3
+    Name: grey-flannel-vans-in-japan_PdI2Sjmh.mp3
     Preload: 0
     _id: 29cb30fe-3076-43fc-a3f5-29d03ce86ee9
   - Clip: {fileID: 8300000, guid: 11b90a86682071844a89eeae6d651d17, type: 3}
@@ -25,48 +25,24 @@ MonoBehaviour:
     Name: NitroBonus.mp3
     Preload: 0
     _id: 4853fe31-4dd4-4b44-97cb-c216a9e98319
-  - Clip: {fileID: 8300000, guid: f43302a22ac0096439f06d4f430b8759, type: 3}
-    Key: CatchBox
-    FolderPath: Application\Content\Audio\Effects\
-    Name: CatchBox.mp3
-    Preload: 0
-    _id: 73a4dd0c-924e-4e05-9b96-b4ea433cd09e
   - Clip: {fileID: 8300000, guid: cc437aa4b000ee04f9a725f3c7631266, type: 3}
     Key: CatchCoin
     FolderPath: Application\Content\Audio\Effects\
     Name: CatchBonus.mp3
     Preload: 0
     _id: 8e2322b6-7fc4-499c-ad69-9e5d14e4e5da
-  - Clip: {fileID: 8300000, guid: 110fd66b0916fc94098a648b2de1241a, type: 3}
+  - Clip: {fileID: 8300000, guid: f43302a22ac0096439f06d4f430b8759, type: 3}
     Key: CatchCat
     FolderPath: Application\Content\Audio\Effects\
-    Name: Myau.mp3
+    Name: CatchBox.mp3
     Preload: 0
     _id: 7c5214c6-bc81-4b0c-a624-0d94dd75a761
-  - Clip: {fileID: 8300000, guid: a14ffa054c680c54db6bcfd8136dc3fb, type: 3}
-    Key: WebHit
-    FolderPath: Application\Content\Audio\Effects\
-    Name: BulletHit.mp3
-    Preload: 0
-    _id: 12724207-a2da-4ef6-802b-fe794ede5ce7
   - Clip: {fileID: 8300000, guid: f28e5862159846e43a867afe564fe2f9, type: 3}
-    Key: BossHit
+    Key: GameOver
     FolderPath: Application\Content\Audio\Effects\
     Name: HitBoss.mp3
     Preload: 0
-    _id: d535fa01-892f-4f78-980f-2f6c2ae84d75
-  - Clip: {fileID: 8300000, guid: aefc43a8224d8d64482545626715a61a, type: 3}
-    Key: GameOver
-    FolderPath: Application\Content\Audio\Effects\
-    Name: GameOverMusicEffect.mp3
-    Preload: 0
     _id: 61ae88f9-bf73-47cc-b1ef-b77c27243871
-  - Clip: {fileID: 8300000, guid: fc05426215953eb4f87f369ff9bf9403, type: 3}
-    Key: CatchMagnit
-    FolderPath: Application\Content\Audio\Effects\
-    Name: CatchMagnit.mp3
-    Preload: 0
-    _id: d3219976-953c-49a5-84a4-2cd5280aee04
   - Clip: {fileID: 8300000, guid: 8579c78a96cafc147b29aed1b295229d, type: 3}
     Key: OpenShop
     FolderPath: Application\Content\Audio\Effects\
