@@ -10,8 +10,8 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private ParticleSystem _warpSpeedEffect;
 
     // New movement
-    [SerializeField] private float speed = 2;
-    [SerializeField] private float speedX = 1.5f;
+    [SerializeField] private float speed = 25;
+    [SerializeField] private float speedX = 2.5f;
     [SerializeField] private float move_speed = 0.6f;
     [SerializeField] float _maxPosX = 3f;
     [SerializeField] private float _timeApplyInvulnerble = 0.1f;

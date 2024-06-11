@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _warpSpeedEffect: {fileID: 0}
-  speed: 10
+  speed: 15
   speedX: 12
   move_speed: 0.6
   _maxPosX: 3
