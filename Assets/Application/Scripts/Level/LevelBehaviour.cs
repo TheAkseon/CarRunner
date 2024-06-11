@@ -17,7 +17,7 @@ public class LevelBehaviour : MonoBehaviour
     {
         int next = SaveData.Instance.Data.CurrentLevel + 1;
 
-        if (next < 30 && SaveData.Instance.Data.FakeLevel < 30)
+        if (next < 12 && SaveData.Instance.Data.FakeLevel < 12)
         {
             SaveData.Instance.Data.FakeLevel = next;
             SaveData.Instance.Data.CurrentLevel = next;
@@ -26,7 +26,7 @@ public class LevelBehaviour : MonoBehaviour
         else
         {
             SaveData.Instance.Data.FakeLevel += 1;
-            next = Random.Range(1, 30);
+            next = Random.Range(1, 12);
             SaveData.Instance.Data.CurrentLevel = next;
             SaveData.Instance.Save();
         }
