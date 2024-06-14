@@ -11,7 +11,8 @@ public class PlayerMove : MonoBehaviour
 
     // New movement
     [SerializeField] private float speed = 15;
-    [SerializeField] private float speedX = 20f;
+    [SerializeField] private float speedX = 1.5f;
+    [SerializeField] private float _speedXKey = 20f;
     [SerializeField] private float move_speed = 0.6f;
     [SerializeField] float _maxPosX = 3f;
     [SerializeField] private float _timeApplyInvulnerble = 0.1f;
@@ -103,13 +104,13 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             float newPositionX = Mathf.Clamp(transform.position.x + move_speed, -_maxPosX, _maxPosX);
-            Vector3 newPosition = transform.position + new Vector3(newPositionX - transform.position.x, 0, 0) * speedX * Time.deltaTime;
+            Vector3 newPosition = transform.position + new Vector3(newPositionX - transform.position.x, 0, 0) * _speedXKey * Time.deltaTime;
             transform.position = newPosition;
         }
         if (Input.GetKey(KeyCode.A))
         {
             float newPositionX = Mathf.Clamp(transform.position.x - move_speed, -_maxPosX, _maxPosX);
-            Vector3 newPosition = transform.position + new Vector3(newPositionX - transform.position.x, 0, 0) * speedX * Time.deltaTime;
+            Vector3 newPosition = transform.position + new Vector3(newPositionX - transform.position.x, 0, 0) * _speedXKey * Time.deltaTime;
             transform.position = newPosition;
         }
     }
