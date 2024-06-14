@@ -12,37 +12,20 @@ using YG;
 public class Shop_grid : MonoBehaviour
 {
     [SerializeField] private Scrollbar _scrollbarVertical;
-    [SerializeField] private int _current_levl;
 
-    [Header("Grids")]
-    [SerializeField] private List<Button> _grids;
-    [Header("Locks")]
-    [SerializeField] private List<GameObject> _notBuy;
-    [SerializeField] private List<GameObject> _isBuyBox;
-    [SerializeField] private List<GameObject> _isApplied;
-    [Header("UplockIndexes")]
-    [SerializeField] private List<TextMeshProUGUI> _unlockIndex;
-    [Header("PriceTextes")]
-    [SerializeField] private List<TextMeshProUGUI> _priceTextes;
+    public List<ShopButton> _grids;
+
+    public List<GameObject> _notBuy;
+    public List<GameObject> _isBuyBox;
+    public List<GameObject> _isApplied;
+
+    public List<TextMeshProUGUI> _priceTextes;
     [Header("Prices")]
     [SerializeField] private List<int> _prices;
-    [Header("UnlockLevels")]
-    [SerializeField] private List<int> _unlockLevels;
 
-    private void Start()
-    {
-        for (int _index = 0; _index < (_priceTextes.Count); _index++)
-        {
-            _priceTextes[_index].text = _prices[_index].ToString();
-            _unlockIndex[_index].text = _unlockLevels[_index].ToString();
-        }
+    public PlayerViev _playerView;
+    public bool _isFirstLoad = true;
 
-        foreach (Button _grid in _grids)
-        {
-            _grid.onClick.AddListener(() => Grid(index: _grids.IndexOf(_grid)));
-        }
-
-    }
     public void Back()
     {
         SoundsManager.Instance.PlaySound("Click");
@@ -52,6 +35,43 @@ public class Shop_grid : MonoBehaviour
 
     public void LoadShop()
     {
+        if (_isFirstLoad)
+        {
+            foreach (ShopButton _grid in _grids)
+            {
+                _grid.gameObject.GetComponent<Button>().onClick.AddListener(() => Grid(index: _grids.IndexOf(_grid)));
+            }
+
+            _playerView = FindObjectOfType<PlayerViev>(true);
+
+            foreach (ShopButton shopButton in _grids)
+            {
+                _notBuy.Add(shopButton.NotBuy);
+            }
+
+            foreach (ShopButton shopButton in _grids)
+            {
+                _isBuyBox.Add(shopButton.IsBuyBox);
+            }
+
+            foreach (ShopButton shopButton in _grids)
+            {
+                _isApplied.Add(shopButton.IsApplied);
+            }
+
+            foreach (ShopButton shopButton in _grids)
+            {
+                _priceTextes.Add(shopButton.PriceText);
+            }
+
+            for (int _index = 0; _index < (_priceTextes.Count); _index++)
+            {
+                _priceTextes[_index].text = _prices[_index].ToString();
+            }
+
+            _isFirstLoad = false;
+        }
+
         _scrollbarVertical.value = 1;
         SoundsManager.Instance.StopSound();
         SoundsManager.Instance.PlaySound("OpenShop");
@@ -61,8 +81,6 @@ public class Shop_grid : MonoBehaviour
 
         UIBehaviour.Instance.UpdateCoins(SaveData.Instance.Data.Coins);
         CheckIsBuy();
-
-        _current_levl = (int)SaveData.Instance.Data.FakeLevel;
     }
 
     public void CheckIsBuy()
@@ -98,6 +116,8 @@ public class Shop_grid : MonoBehaviour
 
                 CheckIsBuy();
                 //Выдача предмета
+                _playerView.SetSkin(index);
+                _isApplied[index].SetActive(true);
             }
             else
             {
@@ -114,8 +134,7 @@ public class Shop_grid : MonoBehaviour
                 _isApplied[i].SetActive(false);
             }
             CheckIsBuy();
-            PlayerViev _playerViev = FindObjectOfType<PlayerViev>();
-            _playerViev.SetSkin(index);
+            _playerView.SetSkin(index);
             _isApplied[index].SetActive(true);
         }
     }

@@ -5,11 +5,11 @@ using UnityEngine;
 public class PreFinishBehaviour : MonoBehaviour
 {
 
-    void Update()
+    void FixedUpdate()
     {
         // ѕозици€ X постепенно мен€етс€ от текущего значени€ до 0
         float x = Mathf.MoveTowards(transform.position.x, transform.position.y, Time.deltaTime * 10f);
-        float z = transform.position.z + 3f * Time.deltaTime;
+        float z = transform.position.z + 3f * Time.fixedDeltaTime;
         transform.position = new Vector3(x, 0, z);
 
         // ѕоворот по Y постепенно мен€етс€ от текущего значени€ до 0

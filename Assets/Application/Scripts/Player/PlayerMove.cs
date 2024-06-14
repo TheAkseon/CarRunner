@@ -11,7 +11,7 @@ public class PlayerMove : MonoBehaviour
 
     // New movement
     [SerializeField] private float speed = 15;
-    [SerializeField] private float speedX = 1.5f;
+    [SerializeField] private float speedX = 10f;
     [SerializeField] private float _speedXKey = 20f;
     [SerializeField] private float move_speed = 0.6f;
     [SerializeField] float _maxPosX = 3f;
@@ -51,6 +51,13 @@ public class PlayerMove : MonoBehaviour
     {
         if (_canMove)
         {
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        if (_canMove)
+        {
             Move();
             Moveforkey();
             HandleInput();
@@ -84,7 +91,7 @@ public class PlayerMove : MonoBehaviour
 
     private void Move()
     {
-        Vector3 newPosition = transform.position + Vector3.forward * speed * Time.deltaTime;
+        Vector3 newPosition = transform.position + Vector3.forward * speed * Time.fixedDeltaTime;
         transform.position = newPosition;
     }
 
@@ -95,7 +102,7 @@ public class PlayerMove : MonoBehaviour
             float movementVectorX = InputManager.GetAxis("Mouse X");
             float newPositionX = Mathf.Clamp(transform.position.x + movementVectorX, -_maxPosX, _maxPosX);
 
-            Vector3 newPosition = transform.position + new Vector3(newPositionX - transform.position.x, 0, 0) * speedX * Time.deltaTime;
+            Vector3 newPosition = transform.position + new Vector3(newPositionX - transform.position.x, 0, 0) * speedX * Time.fixedDeltaTime;
             transform.position = newPosition;
         }
     }
@@ -104,13 +111,13 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             float newPositionX = Mathf.Clamp(transform.position.x + move_speed, -_maxPosX, _maxPosX);
-            Vector3 newPosition = transform.position + new Vector3(newPositionX - transform.position.x, 0, 0) * _speedXKey * Time.deltaTime;
+            Vector3 newPosition = transform.position + new Vector3(newPositionX - transform.position.x, 0, 0) * _speedXKey * Time.fixedDeltaTime;
             transform.position = newPosition;
         }
         if (Input.GetKey(KeyCode.A))
         {
             float newPositionX = Mathf.Clamp(transform.position.x - move_speed, -_maxPosX, _maxPosX);
-            Vector3 newPosition = transform.position + new Vector3(newPositionX - transform.position.x, 0, 0) * _speedXKey * Time.deltaTime;
+            Vector3 newPosition = transform.position + new Vector3(newPositionX - transform.position.x, 0, 0) * _speedXKey * Time.fixedDeltaTime;
             transform.position = newPosition;
         }
     }

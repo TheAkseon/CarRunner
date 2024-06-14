@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.31465754, g: 0.58989316, b: 0.594668, a: 1}
+  m_IndirectSpecularColor: {r: 0.31336263, g: 0.59008616, b: 0.5939907, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -381,7 +381,7 @@ PrefabInstance:
     - target: {fileID: 3820354366194584810, guid: 9f01c8c24df83404b9208e33065bcbfb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.656173
+      value: -1.61
       objectReference: {fileID: 0}
     - target: {fileID: 3820354366194584810, guid: 9f01c8c24df83404b9208e33065bcbfb,
         type: 3}
@@ -465,7 +465,7 @@ PrefabInstance:
     - target: {fileID: 3820354366194584810, guid: 9f01c8c24df83404b9208e33065bcbfb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.656173
+      value: -1.61
       objectReference: {fileID: 0}
     - target: {fileID: 3820354366194584810, guid: 9f01c8c24df83404b9208e33065bcbfb,
         type: 3}
@@ -5573,7 +5573,7 @@ PrefabInstance:
     - target: {fileID: 3820354366194584810, guid: 9f01c8c24df83404b9208e33065bcbfb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.6561732
+      value: 1.68
       objectReference: {fileID: 0}
     - target: {fileID: 3820354366194584810, guid: 9f01c8c24df83404b9208e33065bcbfb,
         type: 3}
@@ -6827,7 +6827,7 @@ PrefabInstance:
     - target: {fileID: 3820354366194584810, guid: 9f01c8c24df83404b9208e33065bcbfb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.6561732
+      value: 1.68
       objectReference: {fileID: 0}
     - target: {fileID: 3820354366194584810, guid: 9f01c8c24df83404b9208e33065bcbfb,
         type: 3}
@@ -7182,7 +7182,7 @@ PrefabInstance:
     - target: {fileID: 3820354366194584810, guid: 9f01c8c24df83404b9208e33065bcbfb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.656173
+      value: -1.61
       objectReference: {fileID: 0}
     - target: {fileID: 3820354366194584810, guid: 9f01c8c24df83404b9208e33065bcbfb,
         type: 3}
@@ -7675,7 +7675,7 @@ PrefabInstance:
     - target: {fileID: 3820354366194584810, guid: 9f01c8c24df83404b9208e33065bcbfb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.656173
+      value: -1.61
       objectReference: {fileID: 0}
     - target: {fileID: 3820354366194584810, guid: 9f01c8c24df83404b9208e33065bcbfb,
         type: 3}
@@ -8324,7 +8324,7 @@ MonoBehaviour:
   m_ShowCameraFrustum: 1
   m_IgnoreTimeScale: 0
   m_WorldUpOverride: {fileID: 0}
-  m_UpdateMethod: 2
+  m_UpdateMethod: 0
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
     m_Style: 1
@@ -18153,7 +18153,7 @@ PrefabInstance:
     - target: {fileID: 3820354366194584810, guid: 9f01c8c24df83404b9208e33065bcbfb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.6561732
+      value: 1.68
       objectReference: {fileID: 0}
     - target: {fileID: 3820354366194584810, guid: 9f01c8c24df83404b9208e33065bcbfb,
         type: 3}
@@ -19650,7 +19650,7 @@ PrefabInstance:
     - target: {fileID: 3820354366194584810, guid: 9f01c8c24df83404b9208e33065bcbfb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.6561732
+      value: 1.68
       objectReference: {fileID: 0}
     - target: {fileID: 3820354366194584810, guid: 9f01c8c24df83404b9208e33065bcbfb,
         type: 3}

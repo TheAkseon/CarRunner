@@ -37,7 +37,8 @@ namespace YG
             BaseDamage = 1;
             BaseFiringRate = 1;
             AppliedSkinIndex = 0;
-            IsBuyShop = new List<bool>() {true, false, false, false, false, false};
+            IsBuyShop = new List<bool>() {true, false, false, false, false, false, false, false, false, false,
+    false, false, false, false, false, false, false};
         }
     }
 }
