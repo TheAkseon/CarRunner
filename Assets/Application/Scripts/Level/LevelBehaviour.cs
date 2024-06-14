@@ -26,7 +26,7 @@ public class LevelBehaviour : MonoBehaviour
         else
         {
             SaveData.Instance.Data.FakeLevel += 1;
-            next = Random.Range(1, 12);
+            next = Random.Range(2, 12);
             SaveData.Instance.Data.CurrentLevel = next;
             SaveData.Instance.Save();
         }
