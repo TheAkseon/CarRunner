@@ -28,16 +28,16 @@ public class SaveData : MonoBehaviour
     }
 
 
-    private void Update()
-    {
-        if (Input.GetKey(KeyCode.R))
-        {
-            _data = new DataHolder();
+    //private void Update()
+    //{
+    //    if (Input.GetKey(KeyCode.R))
+    //    {
+    //        _data = new DataHolder();
 
-            SaveManager.Reset(_saveKey, _data);
-            SaveYandex();
-        }
-    }
+    //        SaveManager.Reset(_saveKey, _data);
+    //        SaveYandex();
+    //    }
+    //}
 
     private void OnDisable()
     {
