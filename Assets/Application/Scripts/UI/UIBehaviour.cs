@@ -193,7 +193,6 @@ public class UIBehaviour : MonoBehaviour
 
     public void Restart()
     {
-        YandexGame.FullscreenShow();
         LevelBehaviour.Instance.Restart();
     }
 

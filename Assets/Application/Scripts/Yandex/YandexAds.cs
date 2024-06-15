@@ -70,6 +70,13 @@ public class YandexAds : MonoBehaviour
         OnAdRewarded();
     }
 
+    public void OnInterstialAdClose()
+    {
+        YandexSDK.Instance.IsAdRunning = false;
+        Time.timeScale = 1;
+        AudioListener.volume = 1;
+    }
+
     public void OnAdRewarded()
     {
         _isRewarded = true;
